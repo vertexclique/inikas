@@ -1,0 +1,45 @@
+@main(null) {
+
+<link href='http://fonts.googleapis.com/css?family=Lato:900' rel='stylesheet' type='text/css'>
+
+<div class="navbar navbar-inverse navbar-fixed-top">
+	<div class="container">
+	  <div class="navbar-header">
+	    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+	      <span class="icon-bar"></span>
+	      <span class="icon-bar"></span>
+	      <span class="icon-bar"></span>
+	    </button>
+	    <a class="navbar-brand" href="#"><img src="assets/images/brandinikas.png"> inikas</a>
+	  </div>
+	  <div class="navbar-collapse collapse" style="margin-top: 10px;">
+	    <div class="navbar-form navbar-right">
+	      <div class="form-group" >
+	      	<div class="displayUsername"></div>
+	        <input type="text" placeholder="Choose a username" class="form-control username">
+	      </div>
+	      <button class="btn btn-primary setUsername">Sign in</button>
+	    </div>
+	  </div><!--/.navbar-collapse -->
+	</div>
+</div>
+
+
+<div class="row mainSection">
+  <div class="col-lg-7 col-lg-offset-1 well">
+    <h2>İnikas</h2>
+    <div class="smallUserWindow well pull-right"></div>
+    <div class="chatWindow"></div>
+	<div class="inputFieldContainer">
+		<input type="text" placeholder="Write here..." class="form-control inputField" />
+	</div>	
+  </div>
+  <div class="userWindowContainer col-lg-3 col-lg-offset-1 well">
+    <h2>Users</h2>
+    <div class="userWindow"></div>
+  </div>
+</div>
+
+<div class="socketStatus"></div>
+	
+}
